@@ -1,0 +1,8 @@
+	Cost	Accuracy
+Trap	1	3
+Simp	1	2
+Gaus	2	1
+
+Trapzoid method has the least CPU time cost. But the accuracy is linear to the number of points. It is good for 'monotonous' functions.
+Simpson method eliminates the leading error term from the Trapzoid method by weighted average. It only introduces negligible steps but increases the accuracy by one order.
+Gaussian method uses weight function to distribute evaluation points. The interval must be in the range of [-1,1] and no singularity exists. The accuracy increases dramaticlly as more nodes are adapted. 
